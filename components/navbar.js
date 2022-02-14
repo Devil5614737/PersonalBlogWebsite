@@ -9,7 +9,9 @@ return(
       <Link href='/'>
         <p className={styles.logo}>CodingHub</p>
       </Link>
-      <p className={styles.contactLink}>Contact</p>
+      <Link href='/contact'>
+        <p className={styles.contactLink}>Contact</p>
+      </Link>
     </div>
   </nav>
 )
