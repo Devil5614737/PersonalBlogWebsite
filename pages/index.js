@@ -36,7 +36,7 @@ router.push('/blog')
     />
     <meta name="author" content="Kaushik sheel" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Coding Hub</title>
+    <title>Coding Blogs and coding solutions</title>
     <meta property="og:title" content="Coding Blogs and tutorials" />
     <meta
       property="og:description"
