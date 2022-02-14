@@ -1,0 +1,67 @@
+.nav{
+  .navContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 7%;
+    .logo{
+      font-weight: 600;
+      font-size: 2rem;
+      color: #0047FF;
+      cursor: pointer;
+    }
+    .contactLink{
+      font-weight: 500;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+  }
+}
+
+
+.main{
+  margin-top: 52px;
+  .mainContainer{
+    padding: 1.5em 7%;
+    .content{
+      width: 100%;
+      padding: 3em 3em;
+      background-color: #F5F5F5;
+      margin-bottom: 22px;
+      h1{
+        font-weight: 700;
+        font-size: 2.8rem;
+        max-width: 70%;
+        color: #171717;
+        @media screen and (max-width:879px) {
+          max-width: 100%;
+          font-size: 2.5rem;
+      }
+        @media screen and (max-width:600px) {
+          max-width: 100%;
+          font-size: 1.8rem;
+      }
+      }
+      p{
+        font-weight: 500;
+        font-size: 1.8rem;
+        margin-top: 22px;
+        margin-bottom: 17px;
+        color: #838383;
+        @media screen and (max-width:600px) {
+          max-width: 100%;
+          font-size: 1.5rem;
+      }
+      }
+      a{
+        font-weight: 500;
+        font-size: 2rem;
+        color: #0047FF;
+        @media screen and (max-width:600px) {
+          max-width: 100%;
+          font-size: 1.3rem;
+      }
+      }
+    }
+  }
+}

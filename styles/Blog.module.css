@@ -1,0 +1,48 @@
+.main {
+  margin-top: 52px;
+}
+
+.main .mainContainer {
+  padding: 1.5em 7%;
+}
+
+.main .mainContainer .blogContainer .blogTitle {
+  font-weight: bold;
+  font-size: 3rem;
+  max-width: 70%;
+}
+
+@media screen and (max-width: 600px) {
+  .main .mainContainer .blogContainer .blogTitle {
+    max-width: 100%;
+    font-size: 2rem;
+  }
+}
+
+.main .mainContainer .blogContainer .blogDate {
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-top: 12px;
+  color: #999999;
+}
+
+@media screen and (max-width: 600px) {
+  .main .mainContainer .blogContainer .blogDate {
+    font-size: 1.2rem;
+  }
+}
+
+.main .mainContainer .blogContainer .blog {
+  font-weight: 400;
+  font-size: 2rem;
+  margin-top: 32px;
+  line-height: 1.8;
+}
+
+@media screen and (max-width: 600px) {
+  .main .mainContainer .blogContainer .blog {
+    font-size: 1.5rem;
+    line-height: 2.1;
+  }
+}
+/*# sourceMappingURL=Blog.module.css.map */
