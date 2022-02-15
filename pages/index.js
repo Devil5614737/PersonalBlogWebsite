@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import { useRouter } from 'next/router'
 import Navbar from '../components/navbar'
 import styles from '../styles/Home.module.css'
@@ -52,10 +53,12 @@ router.push('/blog')
   <main className={styles.main}>
     <div className={styles.mainContainer}>
     <h1 className={styles.mainContainerTitle}>
-                    CodingHub Blogs
+                    CodingHub Blogs and coding solutions
                 </h1>
     <div className={styles.content}>
-        <p className={styles.contentTitle}>Pc Builds for coders -Budget PCs You Can Build This Festive Season</p>
+        <Link href='#'>
+          <p className={styles.contentTitle}>Pc Builds for coders -Budget PCs You Can Build This Festive Season</p>
+        </Link>
         <p>In this blog we are building coding pc under 30k rupees</p>
         <a onClick={handleClick} href="#" className="cta">Read more</a>
       </div>
