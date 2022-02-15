@@ -41,7 +41,7 @@
 
 .main .mainContainer .content .contentTitle {
   font-weight: 700;
-  font-size: 2.8rem;
+  font-size: 2.2rem;
   max-width: 70%;
   color: #171717;
 }
@@ -85,6 +85,23 @@
   .main .mainContainer .content a {
     max-width: 100%;
     font-size: 1.3rem;
+  }
+}
+
+.mainContainerTitle {
+  margin-bottom: 42px;
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 879px) {
+  .mainContainerTitle {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .mainContainerTitle {
+    font-size: 1.8rem;
   }
 }
 /*# sourceMappingURL=Home.module.css.map */

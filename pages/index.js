@@ -51,6 +51,9 @@ router.push('/blog')
   <Navbar/>
   <main className={styles.main}>
     <div className={styles.mainContainer}>
+    <h1 className={styles.mainContainerTitle}>
+                    CodingHub Blogs
+                </h1>
     <div className={styles.content}>
         <p className={styles.contentTitle}>Pc Builds for coders -Budget PCs You Can Build This Festive Season</p>
         <p>In this blog we are building coding pc under 30k rupees</p>

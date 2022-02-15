@@ -7,6 +7,7 @@ export default function Blog(){
         <Navbar/>
         <main className={styles.main}>
             <div className={styles.mainContainer}>
+               
                 <div className={styles.blogContainer}>
                     <p className={styles.blogTitle}>PC Builds for Coders -Budget PCs You Can Build This Festive Season</p>
                     <p className={styles.blogDate}>Sun Dec 19 2021</p>
