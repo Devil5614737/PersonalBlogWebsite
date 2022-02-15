@@ -1,18 +1,13 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import { useRouter } from 'next/router'
 import Navbar from '../components/navbar'
 import styles from '../styles/Home.module.css'
 
 
 
 export default function Home() {
-const router=useRouter();
 
 
-const handleClick=()=>{
-router.push('/blog')
-}
 
 
 
@@ -56,11 +51,11 @@ router.push('/blog')
                     CodingHub Blogs and coding solutions
                 </h1>
     <div className={styles.content}>
-        <Link href='#'>
+        <Link href='/blog'>
           <p className={styles.contentTitle}>Pc Builds for coders -Budget PCs You Can Build This Festive Season</p>
         </Link>
         <p>In this blog we are building coding pc under 30k rupees</p>
-        <Link href='#'><a onClick={handleClick} href="#" className="cta">Read more</a></Link>
+        <Link href='/blog'><a href="#" className="cta">Read more</a></Link>
       </div>
     </div>
   </main>
