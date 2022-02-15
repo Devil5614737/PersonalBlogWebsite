@@ -60,7 +60,7 @@ router.push('/blog')
           <p className={styles.contentTitle}>Pc Builds for coders -Budget PCs You Can Build This Festive Season</p>
         </Link>
         <p>In this blog we are building coding pc under 30k rupees</p>
-        <a onClick={handleClick} href="#" className="cta">Read more</a>
+        <Link href='#'><a onClick={handleClick} href="#" className="cta">Read more</a></Link>
       </div>
     </div>
   </main>
